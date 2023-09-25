@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.2rem;
+    background-color:#F7C7B9 ;
+    color:  #161212;
+
+}
+ul#menu {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style: none;
+   font-family: Poppins;
+   gap: 5rem;
+ 
+}
+
+div#title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Poppins;
+    padding-right: 10%;
+ 
+    gap: 1.2rem;
+    
+}
+
+section#banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#F7C7B9 ;
+    
+}
+
+section#banner div h2{
+
+    
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    font-family: Poppins;
+    flex-direction: column;
+
+
+}
+section#banner div p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+   
+
+}
+
+
+
+
+
+/* CSS */
+.btn-donation {
+  background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Poppins;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: .8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  width:Hug (250px);  
+  word-break: break-word;
+  border: 0;
+}
+
+.btn-donation:active,
+.btn-donation:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.btn-donation:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+}
+
